@@ -1,3 +1,7 @@
+###The following functions handle matrix objects, and will enable the caching 
+### of the matrix inverse.  This functionality is useful for when you need to 
+### recall this value and want to reduce the number of times it is computed. 
+
 ### makeCacheMatrix creates a special matrix object that
 ### has the ability to cache its inverse
 
